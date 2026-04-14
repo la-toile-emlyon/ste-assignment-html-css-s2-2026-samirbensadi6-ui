@@ -4,10 +4,13 @@
 /* ------------------------------
             RESET
  ---------------------------------*/
-*{
-    margin: 0; /* pas de marges par défaut */
-    padding: 0; /* pas de padding par défaut */
-    box-sizing: border-box;  /* Ne change pas la taille de la boite si j'ajoute des paddings ou des broder. je garde le controle de ma boite.*/
+* {
+    margin: 0;
+    /* pas de marges par défaut */
+    padding: 0;
+    /* pas de padding par défaut */
+    box-sizing: border-box;
+    /* Ne change pas la taille de la boite si j'ajoute des paddings ou des broder. je garde le controle de ma boite.*/
 }
 
 /* ------------------------------
@@ -15,23 +18,28 @@
  ---------------------------------*/
 
 .decoration-none {
-    text-decoration: none; /* retirer la ligne sous le texte */
+    text-decoration: none;
+    /* retirer la ligne sous le texte */
 }
 
-.list-type-none{
-    list-style-type: none; /*retirer la puces des listes */
+.list-type-none {
+    list-style-type: none;
+    /*retirer la puces des listes */
 }
 
-.bold{
-    font-weight: 800; /* mettre en gras */
+.bold {
+    font-weight: 800;
+    /* mettre en gras */
 }
 
-.text-center{
-    text-align: center; /* centrer le texte */
+.text-center {
+    text-align: center;
+    /* centrer le texte */
 }
 
-.uppercase{
-    text-transform: uppercase; /* mettre en majuscule */
+.uppercase {
+    text-transform: uppercase;
+    /* mettre en majuscule */
 }
 
 
@@ -39,7 +47,7 @@
             LARGEURS
  ---------------------------------*/
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
@@ -48,7 +56,7 @@
     width: 50%;
 }
 
-.w-48{
+.w-48 {
     width: 48%;
 }
 
@@ -60,7 +68,7 @@
     width: 25%;
 }
 
-.w-20{
+.w-20 {
     width: 20%;
 }
 
@@ -73,27 +81,34 @@
     flex-wrap: wrap;
 }
 
-.space-between{
+.flex-column {
+    flex-direction: column;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.space-between {
     justify-content: space-between;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.gap-8{
+.gap-8 {
     gap: 8px;
 }
 
-.gap-16{
+.gap-16 {
     gap: 16px;
 }
 
-.gap-32{
+.gap-32 {
     gap: 32px;
 }
 
@@ -101,60 +116,72 @@
          MARGIN & PADDING 
  ---------------------------------*/
 
- /* Margin */
+/* Margin */
 
 .mt-16 {
     margin-top: 16px;
 }
 
-.mb-16{
+.mb-16 {
     margin-bottom: 16px;
 }
 
-.mt-32{
+.mt-32 {
     margin-top: 32px;
 }
 
-.mb-32{
+.mb-32 {
     margin-bottom: 32px;
 }
 
-.mt-128{
+.mt-128 {
     margin-top: 128px;
 }
 
-.mb-128{
+.mb-128 {
     margin-bottom: 128px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pl-30 {
+    padding-left: 30px;
 }
 
 /* padding */
 
 
-.pb-16{
+.pb-16 {
     padding-bottom: 16px;
 }
 
-.pt-16{
+.pt-16 {
     padding-top: 16px;
 }
 
-.pb-32{
+.p-8 {
+    padding: 8px;
+}
+
+.pb-32 {
     padding-bottom: 16px;
 }
 
-.pt-32{
+.pt-32 {
     padding-top: 32px;
 }
 
-.pb-32{
+.pb-32 {
     padding-bottom: 32px;
 }
 
-.pt-128{
+.pt-128 {
     padding-top: 128px;
 }
 
-.pb-128{
+.pb-128 {
     padding-bottom: 128px;
 }
 
@@ -162,7 +189,7 @@
             CONTAINER
  ---------------------------------*/
 
-.container-1000{
+.container-1000 {
     max-width: 1000px;
     width: 100%;
     margin-left: auto;
@@ -171,7 +198,7 @@
     padding-right: 20px;
 }
 
-.container-1200{
+.container-1200 {
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
@@ -188,6 +215,17 @@
 
 .marron {
     background-color: #D8935C;
+}
+
+.white {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
 }
 
 /* Les typographies */
@@ -208,16 +246,35 @@
     padding: 8px 15px;
 }
 
-.header {
-    background-color:rgba(83, 62, 6, 0.42);
+/*Header*/
+
+.header-marron {
+    background-color: rgba(83, 62, 6, 0.42);
     color: white;
 }
 
 /* Les titres */
 
 h1 {
-    font-size:50px;
+    font-size: 50px;
     font-weight: 400;
-     font-style: "Cormorant Garamond"
+    font-style: "Cormorant Garamond"
 }
 
+/* Les cartes */
+
+.card {
+    background-color: brown;
+    border: solid black;
+    padding: 15px 10px;
+    width: 28%;
+    border-radius: 6px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgb(201, 201, 201);
+}
+
+/*les images des profils */
+
+.profil {
+    border-radius: 100%;
+}

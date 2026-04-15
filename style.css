@@ -84,8 +84,13 @@
 .flex-column {
     flex-direction: column;
 }
-.inline-block {
-    display: inline-block;
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-start {
+    justify-content: flex-start;
 }
 
 .space-between {
@@ -98,6 +103,10 @@
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
 }
 
 .gap-8 {
@@ -134,6 +143,14 @@
     margin-bottom: 32px;
 }
 
+.mt-64 {
+    margin-top: 64px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
 .mt-128 {
     margin-top: 128px;
 }
@@ -142,13 +159,26 @@
     margin-bottom: 128px;
 }
 
-.pr-30 {
-    padding-right: 30px;
+.ml-16 {
+    margin-left: 16px;
 }
 
-.pl-30 {
-    padding-left: 30px;
+.mr-16 {
+    margin-right:16px ;
 }
+
+.mr-45 {
+    margin-right: 45px;
+}
+
+.ml-45 {
+    margin-left: 45px;
+}
+
+.mr-128 {
+    margin-right: 128px;
+}
+
 
 /* padding */
 
@@ -183,6 +213,14 @@
 
 .pb-128 {
     padding-bottom: 128px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pl-30 {
+    padding-left: 30px;
 }
 
 /* ------------------------------
@@ -221,6 +259,10 @@
     color: white;
 }
 
+.black {
+    color: black;
+}
+
 .bg-black {
     background-color: black;
     border-radius: 10px;
@@ -228,10 +270,19 @@
     color: white;
 }
 
+.bg-white {
+    background-color: white;
+}
+
+
 /* Les typographies */
 
 .typo-manrope {
     font-family: "Manrope";
+}
+
+.typo-titres {
+    font-family: "Cormorant Garamond";
 }
 
 /*Les boutons*/
@@ -240,7 +291,6 @@
     background-color: #73360b;
     text-decoration: none;
     border-radius: 6px;
-    border: solid;
     color: white;
     display: inline-block;
     padding: 8px 15px;
@@ -251,6 +301,7 @@
 .header-marron {
     background-color: rgba(83, 62, 6, 0.42);
     color: white;
+    font-size: 20px;
 }
 
 /* Les titres */
@@ -261,20 +312,52 @@ h1 {
     font-style: "Cormorant Garamond"
 }
 
+h3 {
+    font-style: "Andada Pro";
+    font-size: 60px;
+    padding-bottom: 32px;
+}
+
 /* Les cartes */
 
 .card {
-    background-color: brown;
-    border: solid black;
-    padding: 15px 10px;
+    background-color: rgba(83, 62, 6, 0.226);
+    padding: 15px;
     width: 28%;
-    border-radius: 6px;
+    border-radius: 15px;
     font-family: "inter", sans-serif;
-    box-shadow: 2px 2px 15px rgb(201, 201, 201);
 }
 
 /*les images des profils */
 
 .profil {
     border-radius: 100%;
+}
+
+.para-50 {
+    font-style: "Andada Pro";
+    font-size: 30px;   
+}
+
+.img-projet1 {
+    width: 500px;
+    height: 300px;
+}
+
+/*Les input */
+
+input {
+    display: block;
+    border-radius: 2px;
+    background-color: rgb(207, 197, 197);
+    width: 328px;
+    height: 29px;
+}
+
+textarea {
+    display: block;
+    width: 328px;
+    height: 29px;
+    border-radius: 2px;
+    background-color: rgb(207, 197, 197);
 }

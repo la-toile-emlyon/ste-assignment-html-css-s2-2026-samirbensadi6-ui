@@ -205,61 +205,89 @@
         <!-- grosse div -->
         <div class="flex space-between">
 
-
             <!-- Mathilde -->
             <div class="card mt-32">
-                <p class="pt-16">Rénovation d'appartement</p>
-                <p class="pt-16">Clémence a su repenser notre espace avec beaucoup d’intelligence et de goût. Le
-                    résultat
-                    est à la fois
-                    pratique et sublime.</p>
 
-                <div class="bg-black pt-16">
-                    <img src="asset/architecte-interieur/mathilde.jpg" alt="Mathilde" width="36px" height="36px"
-                        class="profil">
-                    <p>Mathilde</p>
-                    <p>Customer</p>
-                </div> <!-- div mini -->
+                <!-- div grand parent -->
+                <div>
+                    <!-- div parent -->
+                    <div class="bg-black">
+                        <img src="asset/architecte-interieur/sonia.jpg" alt="Mathilde" width="36px" height="36px"
+                            class="profil">
 
-            </div>
+                        <!-- div enfant -->
+                        <div class="bg-black">
+                            <p>Mathilde</p>
+                            <p>Rénovation d'appartement</p>
+                        </div>
 
-            <!-- Olivier -->
-            <div class="card mt-32">
-                <p class="pt-16">Aménagement de bureau</p>
-                <p class="pt-32">Un vrai sens du détail et une belle écoute de nos besoins. Les meubles sur mesure sont
-                    parfaits et
-                    l’espace respire.</p>
-
-                <div class="bg-black pt-64">
-                    <img src="asset/architecte-interieur/olivier.jpg" alt="Olivier" width="36px" height="36px"
-                        class="profil">
-                    <p>Olivier</p>
-                    <p>Customer</p>
-
+                    </div>
                 </div>
-
-            </div>
-
-            <!-- Sonia -->
-            <div class="card mt-32">
-                <p class="pt-16">Décoration intérieure</p>
-                <p class="pt-16">J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière retravaillée,
+                <p class="pt-16">J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière
+                    retravaillée,
                     et
                     des
                     matières nobles. Je recommande à 100 %.</p>
-                <div class="bg-black">
-                    <img src="asset/architecte-interieur/sonia.jpg" alt="Sonia" width="36px" height="36px"
-                        class="profil">
-                    <p>Sonia</p>
-                    <p>Customer</p>
-                </div>
             </div>
-        </div>
+
+
+            <!-- Olivier -->
+            <div class="card mt-32">
+
+                <!-- div grand parent -->
+                <div>
+                    <!-- div parent -->
+                    <div class="bg-black">
+                        <img src="asset/architecte-interieur/sonia.jpg" alt="Olivier" width="36px" height="36px"
+                            class="profil">
+
+                        <!-- div enfant -->
+                        <div class="bg-black">
+                            <p>Olivier</p>
+                            <p>Aménagement de bureau</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <p class="pt-16">J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière
+                    retravaillée,
+                    et
+                    des
+                    matières nobles. Je recommande à 100 %.</p>
+            </div>
+
+            <!-- Sonia -->
+            <!-- grosse div avec un p -->
+            <div class="card mt-32">
+
+                <!-- div grand parent -->
+                <div>
+                    <!-- div parent -->
+                    <div class="bg-black">
+                        <img src="asset/architecte-interieur/sonia.jpg" alt="Sonia" width="36px" height="36px"
+                            class="profil">
+
+                        <!-- div enfant -->
+                        <div class="bg-black">
+                            <p>Sonia</p>
+                            <p>Décoration intérieure</p>
+                        </div>
+
+                    </div>
+                </div>
+                <p class="pt-16">J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière
+                    retravaillée,
+                    et
+                    des
+                    matières nobles. Je recommande à 100 %.</p>
+            </div>
 
     </section>
 
     <footer class="flex space-between container-1200">
-        <div>
+        <!-- gauche -->
+        <div class="w-48">
             <h3 class="mt-32">Prets à travailler ensemble ? </h3>
             <p>Une idée, un projet, une envie de collaboration ?Contactez-nous, nous serons ravis d’en discuter et de
                 voir
@@ -274,12 +302,13 @@
 
         </div>
 
-        <div class= "mt-32">
-            <input type="name" name="name" id="name" placeholder="Nom" class="mb-32" />
-            <input type="tel" name="tel" id="tel" placeholder="téléphone" class="block mb-32" />
-            <input type="email" name="email" id="email" placeholder="email" class="block mb-32" />
-            <textarea name="message" id="message" placeholder="message" class="block mb-32"></textarea>
-            <input type="submit" value="Envoyez" class="block mb-32 ">
+        <!-- droite -->
+        <div class=" w-48">
+            <input type="name" name="name" id="name" placeholder="Nom" class="mb-32 black" />
+            <input type="tel" name="tel" id="tel" placeholder="téléphone" class="block mb-32 black" />
+            <input type="email" name="email" id="email" placeholder="email" class="block mb-32 black" />
+            <textarea name="message" id="message" placeholder="message" class="block mb-32 black"></textarea>
+            <input type="submit" value="Envoyez" class="block mb-32 black ">
         </div>
     </footer>
 </body>

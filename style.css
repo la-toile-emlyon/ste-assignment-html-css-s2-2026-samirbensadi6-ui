@@ -211,6 +211,10 @@
     padding-top: 128px;
 }
 
+.pt-64 {
+    padding-top: 64px;
+}
+
 .pb-128 {
     padding-bottom: 128px;
 }
@@ -251,8 +255,12 @@
     color: #2E2A26;
 }
 
-.marron {
+.color {
     background-color: #D8935C;
+}
+
+.marron {
+    background-color:#D8935C;
 }
 
 .white {
@@ -274,6 +282,12 @@
     background-color: white;
 }
 
+.clr-brown {
+    color: burlywood;
+}
+
+
+
 
 /* Les typographies */
 
@@ -288,7 +302,7 @@
 /*Les boutons*/
 
 .btn {
-    background-color: #73360b;
+    background-color: #482c136c;
     text-decoration: none;
     border-radius: 6px;
     color: white;
@@ -298,10 +312,14 @@
 
 /*Header*/
 
-.header-marron {
-    background-color: rgba(83, 62, 6, 0.42);
-    color: white;
+header {
+    background: linear-gradient(to bottom, rgba(178, 132, 4, 1)80% rgba(255, 4, 4, 0)100%);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
     font-size: 20px;
+    
 }
 
 /* Les titres */
@@ -312,10 +330,19 @@ h1 {
     font-style: "Cormorant Garamond"
 }
 
+h2 {
+    color: white;
+}
+
 h3 {
     font-style: "Andada Pro";
     font-size: 60px;
     padding-bottom: 32px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
 }
 
 /* Les cartes */
@@ -342,6 +369,11 @@ h3 {
 .img-projet1 {
     width: 500px;
     height: 300px;
+}
+
+.img-profil {
+    width: 36px;
+    height: 36px;
 }
 
 /*Les input */

@@ -75,7 +75,7 @@
 .img-header {
     width: 504px;
     height: 439px;
-}                                      
+}
 
 /* ------------------------------
             FLEXBOX
@@ -173,7 +173,7 @@
 }
 
 .mr-16 {
-    margin-right:16px ;
+    margin-right: 16px;
 }
 
 .mr-45 {
@@ -233,6 +233,11 @@
     padding-bottom: 128px;
 }
 
+.pl-15 {
+    padding-left: 15px;
+}
+
+
 .pr-30 {
     padding-right: 30px;
 }
@@ -278,16 +283,8 @@ ul {
 }
 
 .marron {
-    background-color:#D8935C;
+    background-color: #D8935C;
 }
-
-i {
-    font-size: 32px;
-}
-
-
-
-
 
 .white {
     color: white;
@@ -298,7 +295,7 @@ i {
 }
 
 .bg-black {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.516);
     border-radius: 10px;
     padding: 10px;
     color: white;
@@ -352,6 +349,15 @@ i {
     padding: 8px 15px;
 }
 
+.btn-realisation {
+    background-color: #82420d;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+    padding: 8px 15px;
+}
+
 /*Header*/
 
 header {
@@ -361,7 +367,7 @@ header {
     width: 100%;
     z-index: 1000;
     font-size: 20px;
-    
+
 }
 
 /* Les titres */
@@ -407,7 +413,7 @@ h4 {
 
 .para-50 {
     font-style: "Andada Pro";
-    font-size: 30px;   
+    font-size: 30px;
 }
 
 .img-projet1 {
@@ -418,6 +424,7 @@ h4 {
 .img-profil {
     width: 36px;
     height: 36px;
+    object-fit: cover;
 }
 
 /*Les input */
@@ -429,7 +436,7 @@ input {
     width: 328px;
     height: 29px;
     font-style: Inter regular;
-    font-size:14px ;
+    font-size: 14px;
 }
 
 textarea {
@@ -459,4 +466,23 @@ textarea {
 
 .taille-icon {
     border-radius: 10px;
+}
+
+.radius {
+    border-radius: 15px;
+}
+
+.hero {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 20px;
+}
+
+.i-brown {
+    color: #D8935C;
+    font-size: 40px;
+}
+
+.i-yellow {
+    color: yellow;
+    font-size: 16px;
 }

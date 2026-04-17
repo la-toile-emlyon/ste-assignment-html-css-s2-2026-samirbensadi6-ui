@@ -281,6 +281,12 @@ ul {
     background-color:#D8935C;
 }
 
+i {
+    font-size: 32px;
+}
+
+
+
 
 
 .white {
@@ -330,6 +336,15 @@ ul {
 
 .btn {
     background-color: #482c136c;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+.btn-brown {
+    background-color: #D8935C;
     text-decoration: none;
     border-radius: 6px;
     color: white;
@@ -442,4 +457,6 @@ textarea {
     font-size: 25px;
 }
 
-
+.taille-icon {
+    border-radius: 10px;
+}

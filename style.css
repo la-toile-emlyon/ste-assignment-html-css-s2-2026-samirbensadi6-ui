@@ -2,7 +2,7 @@
 
 
 /* ------------------------------
-            RESET check
+            RESET
  ---------------------------------*/
 * {
     margin: 0;
@@ -14,7 +14,7 @@
 }
 
 /* ------------------------------
-            TEXTES check
+            TEXTES
  ---------------------------------*/
 
 .decoration-none {
@@ -44,7 +44,7 @@
 
 
 /* ------------------------------
-            LARGEURS a repositionner
+            LARGEURS
  ---------------------------------*/
 
 .w-100 {
@@ -74,7 +74,7 @@
 
 
 /* ------------------------------
-            FLEXBOX check
+            FLEXBOX
  ---------------------------------*/
 
 .flex {
@@ -123,7 +123,7 @@
 }
 
 /* ------------------------------
-         MARGIN & PADDING a revoir
+         MARGIN & PADDING
  ---------------------------------*/
 
 /* Margin */
@@ -144,20 +144,20 @@
     margin-bottom: 16px;
 }
 
-.pr-30 {
-    padding-right: 30px;
-}
-
-.pl-30 {
-    padding-left: 30px;
-}
-
 .mt-32 {
     margin-top: 32px;
 }
 
 .mb-32 {
     margin-bottom: 32px;
+}
+
+.mr-45 {
+    margin-right: 45px;
+}
+
+.ml-45 {
+    margin-left: 45px;
 }
 
 .mt-64 {
@@ -178,22 +178,6 @@
 
 .mb-128 {
     margin-bottom: 128px;
-}
-
-.ml-16 {
-    margin-left: 16px;
-}
-
-.mr-16 {
-    margin-right: 16px;
-}
-
-.mr-45 {
-    margin-right: 45px;
-}
-
-.ml-45 {
-    margin-left: 45px;
 }
 
 .mr-128 {
@@ -224,8 +208,12 @@
     padding-top: 16px;
 }
 
-.pb-64 {
-    padding-bottom: 64px;
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pl-30 {
+    padding-left: 30px;
 }
 
 .pt-32 {
@@ -274,18 +262,12 @@
     padding-right: 20px;
 }
 
-/* Les couleurs hero et ul a repositionner */
+/* ------------------------------
+           COULEURS
+ ---------------------------------*/
 
 .couleur-texte {
     color: #2E2A26;
-}
-
-ul {
-    font-size: 25px;
-}
-
-.marron {
-    background-color: #D8935C;
 }
 
 .white {
@@ -300,12 +282,10 @@ ul {
     color: #D8935C;
 }
 
-.hero {
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 20px;
-}
+/* ------------------------------
+            BACKGROUND-COLORS
+ ---------------------------------*/
 
-/* les background-color */
 
 .bg-brown {
     background-color: #D8935C;
@@ -315,7 +295,7 @@ ul {
 }
 
 .bg-black {
-    background-color:black;
+    background-color: rgba(0, 0, 0, 0.308);
     border-radius: 10px;
     padding: 10px;
     color: white;
@@ -328,9 +308,12 @@ ul {
 .bg-vos-retour {
     background-color: #723707;
 }
-/* Les typographies */
 
-.typo-manrope {
+/* ------------------------------
+            TYPOGRAPHIES
+ ---------------------------------*/
+
+ .typo-manrope {
     font-family: "Manrope";
 }
 
@@ -338,7 +321,10 @@ ul {
     font-family: "Cormorant Garamond";
 }
 
-/*Les boutons*/
+/* ------------------------------
+             BOUTONS
+ ---------------------------------*/
+
 
 .btn {
     background-color: #482c136c;
@@ -347,6 +333,7 @@ ul {
     color: white;
     display: inline-block;
     padding: 8px 15px;
+    cursor: pointer;
 }
 
 .btn-brown {
@@ -365,9 +352,21 @@ ul {
     color: white;
     display: inline-block;
     padding: 8px 15px;
+    
 }
 
-/*Header*/
+/* ------------------------------
+             BOUTON HOVER
+ ---------------------------------*/
+.button:hover {
+   background-color: white;
+   color: #D8935C;
+}
+
+/* ------------------------------
+             HEADER
+ ---------------------------------*/
+
 
 header {
     background: linear-gradient(to bottom, rgba(178, 132, 4, 1)80% rgba(255, 4, 4, 0)100%);
@@ -379,7 +378,10 @@ header {
 
 }
 
-/* Les titres */
+/* ------------------------------
+             TITRES
+ ---------------------------------*/
+
 
 h1 {
     font-size: 50px;
@@ -404,7 +406,10 @@ h4 {
     text-align: center;
 }
 
-/* Les cartes */
+/* ------------------------------
+             CARTES
+ ---------------------------------*/
+
 
 .card {
     background-color: rgba(197, 148, 14, 0.226);
@@ -414,20 +419,13 @@ h4 {
     font-family: "inter", sans-serif;
 }
 
-/*les images des profils */
+/* ------------------------------
+          IMAGES DES PROFILS 
+ ---------------------------------*/
+
 
 .profil {
     border-radius: 100%;
-}
-
-/*.para-30 {
-    font-style: "Andada Pro";
-    font-size: 30px;
-}*/
-
-.img-projet1 {
-    width: 500px;
-    height: 350px;
 }
 
 .img-profil {
@@ -436,7 +434,10 @@ h4 {
     object-fit: cover;
 }
 
-/*Les input */
+/* ------------------------------
+             INPUT ET TEXTAREA
+ ---------------------------------*/
+
 
 input {
     display: block;
@@ -456,7 +457,14 @@ textarea {
     background-color: rgb(207, 197, 197);
 }
 
-/* taille images */
+/* ------------------------------
+             PROJETS
+ ---------------------------------*/
+
+.img-projet1 {
+    width: 500px;
+    height: 350px;
+}
 
 .img-projet3 {
     width: 500px;
@@ -473,17 +481,16 @@ textarea {
     font-size: 25px;
 }
 
-.taille-icon {
-    border-radius: 10px;
-}
-
 .radius {
     border-radius: 15px;
 }
 
 
 
-/*les Icones */
+/* ------------------------------
+             ICONS
+ ---------------------------------*/
+
 
 .i-brown {
     color: #D8935C;
@@ -494,3 +501,29 @@ textarea {
     color: yellow;
     font-size: 16px;
 }
+
+.taille-icon {
+    border-radius: 10px;
+}
+
+/* ------------------------------
+             LISTE
+ ---------------------------------*/
+
+
+ul {
+    font-size: 25px;
+}
+
+/* ------------------------------
+         HERO PREMIERE IMAGE
+ ---------------------------------*/
+
+
+.hero {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 20px;
+}
+
+
+

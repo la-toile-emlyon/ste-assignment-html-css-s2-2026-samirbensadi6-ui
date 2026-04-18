@@ -2,7 +2,7 @@
 
 
 /* ------------------------------
-            RESET
+            RESET check
  ---------------------------------*/
 * {
     margin: 0;
@@ -14,7 +14,7 @@
 }
 
 /* ------------------------------
-            TEXTES
+            TEXTES check
  ---------------------------------*/
 
 .decoration-none {
@@ -44,7 +44,7 @@
 
 
 /* ------------------------------
-            LARGEURS
+            LARGEURS a repositionner
  ---------------------------------*/
 
 .w-100 {
@@ -72,13 +72,9 @@
     width: 20%;
 }
 
-.img-header {
-    width: 504px;
-    height: 439px;
-}
 
 /* ------------------------------
-            FLEXBOX
+            FLEXBOX check
  ---------------------------------*/
 
 .flex {
@@ -127,10 +123,18 @@
 }
 
 /* ------------------------------
-         MARGIN & PADDING 
+         MARGIN & PADDING a revoir
  ---------------------------------*/
 
 /* Margin */
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
 
 .mt-16 {
     margin-top: 16px;
@@ -138,6 +142,14 @@
 
 .mb-16 {
     margin-bottom: 16px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pl-30 {
+    padding-left: 30px;
 }
 
 .mt-32 {
@@ -148,16 +160,16 @@
     margin-bottom: 32px;
 }
 
-.mb-65 {
-    margin-bottom: 65px;
-}
-
 .mt-64 {
     margin-top: 64px;
 }
 
 .mb-64 {
     margin-bottom: 64px;
+}
+
+.mb-65 {
+    margin-bottom: 65px;
 }
 
 .mt-128 {
@@ -191,9 +203,16 @@
 
 /* padding */
 
+.p-8 {
+    padding: 8px;
+}
 
 .pb-10 {
     padding-bottom: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
 }
 
 .pb-16 {
@@ -203,10 +222,6 @@
 
 .pt-16 {
     padding-top: 16px;
-}
-
-.p-8 {
-    padding: 8px;
 }
 
 .pb-64 {
@@ -221,8 +236,8 @@
     padding-bottom: 32px;
 }
 
-.pt-128 {
-    padding-top: 128px;
+.pb-64 {
+    padding-bottom: 64px;
 }
 
 .pt-64 {
@@ -233,17 +248,8 @@
     padding-bottom: 128px;
 }
 
-.pl-15 {
-    padding-left: 15px;
-}
-
-
-.pr-30 {
-    padding-right: 30px;
-}
-
-.pl-30 {
-    padding-left: 30px;
+.pt-128 {
+    padding-top: 128px;
 }
 
 /* ------------------------------
@@ -268,14 +274,10 @@
     padding-right: 20px;
 }
 
-/* Les couleurs */
+/* Les couleurs hero et ul a repositionner */
 
 .couleur-texte {
     color: #2E2A26;
-}
-
-.bg-retour {
-    background-color: #723707;
 }
 
 ul {
@@ -294,15 +296,26 @@ ul {
     color: black;
 }
 
-.bg-black {
-    background-color: rgba(0, 0, 0, 0.516);
+.clr-brown {
+    color: #D8935C;
+}
+
+.hero {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 20px;
+}
+
+/* les background-color */
+
+.bg-brown {
+    background-color: #D8935C;
     border-radius: 10px;
     padding: 10px;
     color: white;
 }
 
-.bg-brown {
-    background-color: #D8935C;
+.bg-black {
+    background-color:black;
     border-radius: 10px;
     padding: 10px;
     color: white;
@@ -312,13 +325,9 @@ ul {
     background-color: white;
 }
 
-.clr-brown {
-    color: burlywood;
+.bg-vos-retour {
+    background-color: #723707;
 }
-
-
-
-
 /* Les typographies */
 
 .typo-manrope {
@@ -411,10 +420,10 @@ h4 {
     border-radius: 100%;
 }
 
-.para-50 {
+/*.para-30 {
     font-style: "Andada Pro";
     font-size: 30px;
-}
+}*/
 
 .img-projet1 {
     width: 500px;
@@ -472,10 +481,9 @@ textarea {
     border-radius: 15px;
 }
 
-.hero {
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 20px;
-}
+
+
+/*les Icones */
 
 .i-brown {
     color: #D8935C;

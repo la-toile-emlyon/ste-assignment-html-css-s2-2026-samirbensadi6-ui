@@ -22,21 +22,21 @@
 </head>
 
 <body>
-    <header class="flex space-between align-center bold bg-black">
+    <header class="flex space-between align-center bold bg-black-header">
 
-        <img src="/asset/architecte-interieur/clemencerivierestudio.png" alt="Clemence Rivière Studio" width="100">
+        <img src="asset/architecte-interieur/clemencerivierestudio.png" alt="Clemence Rivière Studio" width="100">
 
         <nav class="pr-30 space-between">
 
-            <a href="#projets" class="decoration-none white clr-brown shadow-btn">Projets</a>
-            <a href="#renovation" class="decoration-none white ml-45 clr-brown">Rénovations</a>
-            <a href="#prestations" class="decoration-none white mr-45 ml-45 clr-brown">Prestations</a>
-            <a href="#temoignages" class="decoration-none white clr-brown">Témoignages</a>
+            <a href="#projets" class="decoration-none white shadow-btn">Projets</a>
+            <a href="#renovation" class="decoration-none white ml-45">Rénovations</a>
+            <a href="#prestations" class="decoration-none white mr-45 ml-45">Prestations</a>
+            <a href="#temoignages" class="decoration-none white">Témoignages</a>
 
         </nav>
 
         <!-- bouton -->
-        <a href="#contact" class="btn mr-16 bg-brown">Contact</a>
+        <a href="#contact" class="btn mr-16">Contact</a>
     </header>
 
     <!-- Section 1 -->
@@ -44,10 +44,12 @@
         <div class="w-48">
             <h1 class="pb-32 clr-brown">Une approche centrée sur vos besoins et votre bien-être</h1>
             <h4 class="pb-32">Révéler le potentiel de chaque espace</h4>
-            
-            <button class="btn"></button><a href="https://www.makeform.ai/fr/tools/ai-appointment-booking-form-generator" target="_blank">Prendre rendez-vous</a>
 
-            <a href="" class="btn btn-realisation btn-hover">Voir nos réalisations</a>
+            <a href="https://www.makeform.ai/fr/tools/ai-appointment-booking-form-generator" target="_blank"
+                class="btn">Prendre
+                rendez-vous</a>
+
+            <a href="" class="btn btn-realisation">Voir nos réalisations</a>
         </div>
 
         <img src="asset/architecte-interieur/couverture.png" alt="couverture" class="w-48 hero">
@@ -59,7 +61,7 @@
     <!-- Section 2 -->
     <section class="pt-128 mt-32 bg-brown" id="renovation">
 
-        <h2 class="typo-titres mb-128 text-center black">Rénovations d'appartements</h2>
+        <h2 class="mb-128 text-center black">Rénovations d'appartements</h2>
         <p class="text-center mb-128 para-pjt">Repenser la circulation, les volumes et la lumière pour créer des
             intérieurs
             élégants,
@@ -67,7 +69,7 @@
             <!-- grosse div avec  -->
         <div class="flex space-between align-center">
             <img src="asset/architecte-interieur/promesses.png" alt="promesses" class="w-48 mb-64 radius">
- 
+
             <div class="w-48">
                 <ul class="list-type-none">
                     <li><i class="ph ph-house-simple"></i>Une approche humaine et créative, centrée sur vos usages et
@@ -195,7 +197,7 @@
         <div class=" flex w-100 space-between mb-64">
 
             <!-- petite div h3 et p -->
-            <div class="w-48">
+            <div class="w-48 ml-32">
                 <h3 class="clr-brown">Boutique artisanale – Croix-Rousse</h3>
                 <p class="para-pjt">Transformation d’un ancien atelier en boutique lumineuse : jeu de textures entre
                     béton ciré, bois
@@ -203,14 +205,14 @@
                     verrières d’atelier.</p>
             </div>
             <img src="asset/architecte-interieur/tem-rysh-F6-U5fGAOik-unsplash.jpg"
-                alt="Boutique artisanale – Croix-Rousse" class="w-48 img-projet4">
+                alt="Boutique artisanale – Croix-Rousse" class="w-48 img-projet4 mr-45">
         </div>
     </section>
 
     <!-- Vos retours -->
     <!-- section 5 -->
     <section class="mt-64 container-1200 bg-vos-retour radius" id="temoignages">
-        <h2 class="mb-32 text-center black">Témoignages</h2>
+        <h2 class="pb-32 text-center black">Témoignages</h2>
 
         <!-- grosse div -->
         <div class="flex space-between">
@@ -302,7 +304,7 @@
     </section>
 
     <footer class="flex space-between container-1200 mt-64 bg-black" id="contact">
-        <!-- gauche -->
+
         <div class="w-48">
             <h3 class="mt-64 clr-brown">Prets à travailler ensemble ? </h3>
             <p class="para-pjt pb-64">Une idée, un projet, une envie de collaboration ?Contactez-nous, nous serons ravis
@@ -310,7 +312,6 @@
                 voir
                 comment avancer ensemble.
                 Laissez votre contact téléphonique et je vous rappellerai.</p>
-            <!-- changer la taille des icones -->
 
             <nav>
                 <a href="https://www.instagram.com/" target="_blank" class="decoration-none"><i
@@ -330,7 +331,15 @@
             <input type="email" name="email" id="email" placeholder="Email" class="block mb-16 bold bg-white" />
             <textarea name="message" id="message" placeholder="Message"
                 class="block mb-16 black bold bg-white text-center pb-64"></textarea>
-            <input type="submit" value="Envoyez" class="block mb-32 bold">
+            <input type="submit" value="Envoyez" class="block mb-32 bold bg-envoyez">
+        </div>
+        
+        <div>
+        <!-- map -->
+        <iframe class="mt-16"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6673181106676!2d4.827202474821051!3d45.777857112458456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb04776d3497%3A0x29f7087f813301eb!2sLa%20Toile!5e0!3m2!1sfr!2sfr!4v1776506098817!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>  
         </div>
     </footer>
 </body>
